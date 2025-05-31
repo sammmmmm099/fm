@@ -5,7 +5,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "12655645")
     API_HASH  = os.environ.get("API_HASH", "05c4cafe00b81ed83207bb4365e0053b")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7696984863:AAEiUA76NTYiQ2dYlCzxEAaymT_FMnnkKpM") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7900540474:AAGM-VFZbFJ0t-16EelYsutowr4GlhizTwY") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","temp")     
@@ -14,10 +14,10 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://envs.sh/7Bt.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6070793480 6006418463').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Elites_Bots,Elites_Assistance').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001714238387"))
-    NEW_USER_LOG = int(os.environ.get("NEW_USER_LOG", "-1002367669203"))
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1074804932 1077880102').split()]
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'pspkbots,Animes2u').split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002551557488"))
+    NEW_USER_LOG = int(os.environ.get("NEW_USER_LOG", "-1002551557488"))
          
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
 
